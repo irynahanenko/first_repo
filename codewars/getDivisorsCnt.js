@@ -2,7 +2,6 @@
 
 // Random tests go up to n = 500000.
 
-my solution
 
 function getDivisorsCnt(n){
     s = 0;
@@ -10,4 +9,4 @@ function getDivisorsCnt(n){
        if(n % i === 0) s++
     }
       return s;
-  } 
+  }  
