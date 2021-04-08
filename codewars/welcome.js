@@ -21,4 +21,3 @@ function greet(language) {
   return langs[language] ? langs[language] : langs.english
   }
 
-  // test
