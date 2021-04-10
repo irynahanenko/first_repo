@@ -11,4 +11,3 @@ function paul(x){
     else if (points < 100) return 'Sad!';
     else return 'Miserable!';
     }
-    // t
