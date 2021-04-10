@@ -13,7 +13,7 @@ let obj = {
   },
   index(a){
     return this.arr.indexOf(a);
-  }
+  },
   init(a,b){
   this.a = a;
   this.b = b;
