@@ -1,15 +1,24 @@
-import LoginPage from  '../pageobjects/login.page';
-import SecurePage from '../pageobjects/secure.page';
+const expect  = require('chai').expect;
 
-describe('My Login application', () => {
-    it('should login with valid credentials', () => {
-        LoginPage.open();
-
-        LoginPage.login('tomsmith', 'SuperSecretPassword!');
-        expect(SecurePage.flashAlert).toBeExisting();
-        expect(SecurePage.flashAlert).toHaveTextContaining(
-            'You logged into a secure area!');
-    });
+describe('Main page test suite',()=>{
+it ('Validate the title of the main page',()=>{
+browser.url('https://demoqa.com/');
+const expectedTitle = 'ToolsQA';
+const actualTitle = browser.getTitle();
+expect(actualTitle).to.equal(expectedTitle);
 });
-
+it ('Test 2',()=>{
+    const elements = $$('div.category-cards > div');
+     expect(elements.length).to.equal(6);
+});
+it ('Test 3',()=>{
+    
+});
+it ('Test 4',()=>{
+    
+});
+it ('Test 5',()=>{
+    
+});
+});
 
