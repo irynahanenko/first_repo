@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-import {URLs, labels} from "../../expected";
+import {URLs, labels} from "../../expected/urls";
 describe("Main page test suite", () => {
   it("Validate the title of the main page", () => {
     browser.url("https://demoqa.com/");

@@ -5,9 +5,8 @@ export const URLs = {
     widgets : "https://demoqa.com/widgets",
     interaction: "https://demoqa.com/interaction",
     books: "https://demoqa.com/books",
-    textBox : 
+    textBox: "https://demoqa.com/text-box"
 }
-​
     export const labels = {
         title: "ToolsQA",
         footer: "© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.",
@@ -17,5 +16,16 @@ export const URLs = {
         widgets: "Widgets",
         interactions: "Interactions",
         books: "Book Store Application",
-        textBox : 
+        textBox: "Text Box",
+    textBoxLabels: {
+        fullName : "Full Name",
+        email: "Email",
+        currentAddress: "Current Address",
+        permAddress: "Permanent Address"
+    },
+    textBoxPlaceholders: {
+        fullName: "Full Name",
+        email: "name@example.com",
+        currentAddress: "Current Address"
     }
+} 
